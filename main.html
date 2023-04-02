@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sport Life</title>
 
+
+    <!-- Swiper CSS -->
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
     <!-- googl fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,44 +23,247 @@
 </head>
     <body>
         <header>
+            
             <div class="innerHeader">    
 
-                <img src="Icons/logo.svg" alt="Logo">
-
-
-                <a class="MenuBtn"  herf="#">
-                    <img src="Icons/menu.svg" alt="menu">
-                    <p>Каталог</p>
-                </a>
-
-                <div class="SearchContainer">
-                    <form action=""  class="SearchBar">
-                        <button type="submit">
-                            <img src="Icons/search.svg" alt="search">
-                        </button>
-                        <input type="text" placeholder="Найти что-нибудь" name="q">    
-                    </form>    
+                <div class="ItemInHeader">   
+                    <div class="Logotype">
+                        <img src="Icons/logo.svg" alt="Logo">
+                    </div>
                 </div>
-                
 
-                <div class="PersonalCabinet">
-                    <a href="#"><img src="Icons/shop_cart.svg" alt="Profile"></a>
-                </div>                
-                
-                <div class="PersonalCabinet">
-                    <a href="#"><img src="Icons/Human.svg" alt="Profile"></a>
+                <div class="ItemInHeader">   
+                    <a class="MenuBtn"  herf="#">
+                        <img src="Icons/menu.svg" alt="menu">
+                        <p>Каталог</p>
+                    </a>
+                </div>
+
+                <div class="ItemInHeader">
+                    <div class="SearchContainer">
+                        <form action=""  class="SearchBar">
+                            <button type="submit">
+                                <img src="Icons/search.svg" alt="search">
+                            </button>
+                            <input type="text" placeholder="Найти что-нибудь" name="q">    
+                        </form>    
+                    </div>
                 </div>
 
                 
+                <div class="ItemInHeader">  
+                    <div class="PersonalCabinet">
+                        <a href="#"><img src="Icons/shop_cart.svg" alt="Profile"></a>
+                    </div>
+                </div>
 
+                <div class="ItemInHeader">                   
+                    <div class="PersonalCabinet">
+                        <a href="#"><img src="Icons/Human.svg" alt="Profile"></a>
+                    </div>
+                </div>         
+  
+
+            </div>            
+        </header>
+
+        <main>
+
+            <div class="slideContainer  swiper">
+
+                <div class="slideContent">
+                    <div class="cardWrapper  swiper-wrapper">
+                        
+                        <div class="card swiper-slide">
+                            <div class="imageContent">
+                                <span class="overlay"></span>
+
+                                <div class="cardImage">
+                                    <img src="images/persons/doctor1.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="cardContent">
+                                <h2 class="name">Матвеева Милана</h2>
+
+                                <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel perferendis, quam ab quae voluptate nostrum veritatis temporibus doloribus quia?</p>
+
+                                <buton class="btnViewMore">View more</buton>
+                            </div>                      
+                        </div>
+
+
+                        <div class="card swiper-slide">
+                            <div class="imageContent">
+                                <span class="overlay"></span>
+
+                                <div class="cardImage">
+                                    <img src="images/persons/doctor2.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="cardContent">
+                                <h2 class="name">Шилов Марк</h2>
+
+                                <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel perferendis, quam ab quae voluptate nostrum veritatis temporibus doloribus quia?</p>
+
+                                <buton class="btnViewMore">View more</buton>
+                            </div>                      
+                        </div>
+
+
+                        <div class="card swiper-slide">
+                            <div class="imageContent">
+                                <span class="overlay"></span>
+
+                                <div class="cardImage">
+                                    <img src="images/persons/doctor3.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="cardContent">
+                                <h2 class="name">Кузнецов Александр</h2>
+
+                                <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel perferendis, quam ab quae voluptate nostrum veritatis temporibus doloribus quia?</p>
+
+                                <buton class="btnViewMore">View more</buton>
+                            </div>                      
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="imageContent">
+                                <span class="overlay"></span>
+
+                                <div class="cardImage">
+                                    <img src="images/persons/doctor4.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="cardContent">
+                                <h2 class="name">Самсонов Роман</h2>
+
+                                <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel perferendis, quam ab quae voluptate nostrum veritatis temporibus doloribus quia?</p>
+
+                                <buton class="btnViewMore">View more</buton>
+                            </div>                      
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="imageContent">
+                                <span class="overlay"></span>
+
+                                <div class="cardImage">
+                                    <img src="images/persons/doctor5.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="cardContent">
+                                <h2 class="name">Черкасов Андрей</h2>
+
+                                <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel perferendis, quam ab quae voluptate nostrum veritatis temporibus doloribus quia?</p>
+
+                                <buton class="btnViewMore">View more</buton>
+                            </div>                      
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="imageContent">
+                                <span class="overlay"></span>
+
+                                <div class="cardImage">
+                                    <img src="images/persons/doctor6.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="cardContent">
+                                <h2 class="name">Власов Дамир</h2>
+
+                                <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel perferendis, quam ab quae voluptate nostrum veritatis temporibus doloribus quia?</p>
+
+                                <buton class="btnViewMore">View more</buton>
+                            </div>                      
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="imageContent">
+                                <span class="overlay"></span>
+
+                                <div class="cardImage">
+                                    <img src="images/persons/doctor7.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="cardContent">
+                                <h2 class="name">Кравцов Дмитрий</h2>
+
+                                <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel perferendis, quam ab quae voluptate nostrum veritatis temporibus doloribus quia?</p>
+
+                                <buton class="btnViewMore">View more</buton>
+                            </div>                      
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="imageContent">
+                                <span class="overlay"></span>
+
+                                <div class="cardImage">
+                                    <img src="images/persons/doctor8.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="cardContent">
+                                <h2 class="name">Кондратьева Агата</h2>
+
+                                <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel perferendis, quam ab quae voluptate nostrum veritatis temporibus doloribus quia?</p>
+
+                                <buton class="btnViewMore">View more</buton>
+                            </div>                      
+                        </div>
+
+                        <div class="card swiper-slide">
+                            <div class="imageContent">
+                                <span class="overlay"></span>
+
+                                <div class="cardImage">
+                                    <img src="images/persons/doctor9.jpeg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="cardContent">
+                                <h2 class="name">Морозова Елизавета</h2>
+
+                                <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel perferendis, quam ab quae voluptate nostrum veritatis temporibus doloribus quia?</p>
+
+                                <buton class="btnViewMore">View more</buton>
+                            </div>                      
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
 
             </div>
-            
-        </header>
+
+        </main>
+
 
         <footer>
 
         </footer>
         
     </body>
+
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/scripte.js" >  </script>
+
 </html>
