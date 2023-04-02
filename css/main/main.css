@@ -1,35 +1,96 @@
-body {background-color: whitesmoke; }
+*{
+     margin: 0; padding: 0;
+     text-decoration: 0;
+     box-sizing: border-box;     
 
-.HeaderContainer {
-      top: 0; left: 0;z-index: 100;
-      display: block;  box-sizing: border-box; 
-      background-color: lightgray;
-      width: 100%; height: auto;
-   }
-
-
-@media screen and (min-width: 700px) {
-     .Container {margin-left: auto; margin-right: auto; 
-               padding-left: 30px; padding-right: 30px; }
 }
 
+header{
+     width: 100%;
+     height: 70px;
+     display: inline-flexbox;
+}
 
-
-.TheRowPosition{
+.innerHeader{
+     margin-left: 5%;
+     margin-right: 5%;
+     margin-top: 10px;
      display: flex;
      align-items: center;
-     -webkit-box-align: center;
+     justify-content: space-around;
+     height: 100%;
+     background-color: #EBECF0;
+     border-radius: 10px;
+}
+   
+.MenuBtn{
+     border-radius: 20px;
+     block-size: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #03C04A;
+     height: 60px;
+     width: 100%;
+     max-width: 150px;
+     cursor: pointer;
+}
+.MenuBtn p{
+     font-family: 'Nunito', sans-serif;
+     font-size: 20px;
+     color: white;
+}
+.MenuBtn img{
+     padding-right: 10px;
+     width: 25px;
 }
 
-.logoInHeader { padding-left: 30PX;
-     width: 10%;
-     }
+.SearchContainer{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+} 
+.SearchBar{
+     width: 100%;
+     max-width: 400px;
+     height: 60px;
+     background: rgba(255, 255, 255, 0.9);
+     display: flex;
+     align-items: center;
+     border-radius: 30px;
+     padding-left: 10px;
+}
+.SearchBar input{
+     background: transparent;     
+     border: 0;
+     outline: none;
+     margin-left: 20px;
+     padding: 24px 10px;
+     font-size: 20px;
+     font-family: 'Nunito', sans-serif;
+     color: #03C04A;
+}
+::placeholder {
+     color: #03C04A;
+     font-family: 'Nunito', sans-serif;
+}
+.SearchBar button img{
+     margin-left: 10px;
+     width: 25px;
+     height: 25px;         
+}
+.SearchBar button {
+     border: 0;
+     border-radius: 30%;
+     width: 30px;
+     height: 30px;
+     background: rgba(255, 255, 255, 0.2);
+     cursor: pointer;
+}
 
-
-.Footer {
-     padding-top: 5px; 
-     top: 0; left: 0;z-index: 100;
-     display: block;  box-sizing: border-box; 
-     background-color: tan;
-     width: 100%; height: auto;
+.PersonalCabinet a img {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 50px;
 }
