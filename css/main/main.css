@@ -5,13 +5,12 @@
      font-family: 'Nunito', sans-serif;   
 
 }
-
 :root{
      --elements: #03C04A;;
      --gray-back: #646363;
      --white-10: #F8F8FA;
      --background-items: rgba(255, 255, 255, 0.2);
-}
+ }
 
 .headerContainer{
      display: grid;
@@ -236,13 +235,4 @@ main{
 }
 .swiper-button-prev {
      left: 0;
-}
-
-
-
-
-footer{
-     height: 200px;
-     width: 100%;
-     background-color: var(--gray-back);
 }

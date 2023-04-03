@@ -1,0 +1,27 @@
+:root{
+    --elements: #03C04A;;
+    --gray-back: #646363;
+    --white-10: #F8F8FA;
+    --grey-text: #C3C3C3;
+    --background-items: rgba(255, 255, 255, 0.2);
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: var(--gray-back);
+}
+
+.ContainerFooter{
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 2.5% 21.5% 2.5% 22% 2.5% 22% 2.5% 21.5% 2.5%;
+    grid-template-rows: 2.5% 20% 5% 10% 5% 10% 5% 10% 5% 10% 5% 10% 2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: red;
+}
+
+
+
