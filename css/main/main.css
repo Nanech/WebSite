@@ -10,6 +10,7 @@
      --gray-back: #646363;
      --white-10: #F8F8FA;
      --background-items: rgba(255, 255, 255, 0.2);
+     --for-card: #b2d3c2;
  }
 
 .headerContainer{
@@ -162,7 +163,7 @@ main{
      top: 0;
      height: 100%;
      width: 100%;
-     background-color: #b2d3c2;
+     background-color: var(--for-card);
      border-radius: 25px 25px 0 25px ;
 }
 
@@ -195,7 +196,7 @@ main{
      width: 100%;
      object-fit: cover;
      border-radius: 50%;
-     border: 4px solid  salmon;
+     border: 4px solid  var(--for-card);
 }
 
 .name{
@@ -215,7 +216,7 @@ main{
      font-size: 16px;
      color: white;
      padding: 8px 16px;
-     background-color:  #03C04A;
+     background-color:  var(--elements);
      border-radius: 30px;
      margin: 14px;
      cursor: pointer;
@@ -224,7 +225,7 @@ main{
 
 
 .swiper-navBtn{
-     color: #03C04A;
+     color: var(--elements);
      transition: color 0.3s ease;
 }
 .swiper-navBtn:hover{
