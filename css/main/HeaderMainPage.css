@@ -16,27 +16,20 @@ header{
     margin: 0 0 1% 0;
     font-size: medium;
     align-items: center;
-    background: aquamarine;
 }
 
 .headerContainer{
     height: 90%;
-    margin: 0 15% ;
+    margin: 0 10% ;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background: #333;
-    padding: 0.3% 0;
+    padding: 0.2% 0;
 }
 
 .Logo{
     height: 100%;
     width: 20%;
-}
-
-.Logo a {
-    width: 100%;
-    height: 100%;
 }
 
 .Logo img{
@@ -45,7 +38,7 @@ header{
 }
 
 .Menu{
-    width: 15%;
+    width: 12%;
 }
 
 .Menu a{
@@ -67,7 +60,7 @@ header{
 }
 
 .SearchContainer{     
-    width: 25%;
+    width: 20%;
     border-radius: 30px;
     border: solid var(--elements) 0.8px;
     background: var(--white-10) ;
@@ -90,9 +83,8 @@ header{
 }
 
 .SearchBar button img{
-    width: auto;
-    height: auto;
-}
+    width: 90%;
+    height: 90%;}
 
 .SearchBar input{    
     background: transparent;   
@@ -108,7 +100,7 @@ header{
     font-size: 14px;
 } 
 
-/*
+
 .ShoppingCart a{
     display: flex;
     align-items: center;
@@ -118,8 +110,10 @@ header{
 }
 
 .ShoppingCart a img{
-    height: 40px;
+    width: 90%;
+    height: 90%;
 }
+
 
 .Profile a{
     display: flex;
@@ -130,5 +124,6 @@ header{
 }
 
 .Profile a img{
-    height: 40px;
-} */
+    width: 90%;
+    height: 90%;
+}
