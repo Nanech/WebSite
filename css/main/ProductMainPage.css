@@ -1,0 +1,65 @@
+:root{
+    --elements: #03C04A;;
+    --gray-back: #646363;
+    --white-10: #F8F8FA;
+    --card: #b2d3c2;
+    --btn-on-card:  #5dbb63;
+    --background-items: rgba(255, 255, 255, 0.2);
+    --description-txt:  #707070;
+    --main-txt: #333; 
+    --back-of-card: #8697a5;
+    --background-of_cards: #D9D9D9;
+    --super-light-gray: rgba(231, 233, 236);
+}
+
+
+.ProductContainer{
+    max-width: 1100px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 3%;
+    margin: 1% 0;
+}
+
+.ProductContent{
+    min-height: 35vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProductSlide{
+    width: 20%;
+    padding: 1%;
+    background-color: white;
+    border: 1px solid var(--super-light-gray);
+    border-radius: 15px;
+    box-shadow: 10px rgba(0, 0, 0, 0.8); 
+}
+
+.SliderContainer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SliderContainer img{
+    height: 50%;
+    width: auto;
+    object-fit: cover;
+}
+
+.NameOfProduct{
+    color: var(--gray-back);
+}
+
+.BtnForProduct{
+    border: none;
+    border-radius: 15px;
+    height: 15%;
+    margin: 0 20%;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: var(--btn-on-card);
+}

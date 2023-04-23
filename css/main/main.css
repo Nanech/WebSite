@@ -3,7 +3,6 @@
      text-decoration: 0;
      box-sizing: border-box;  
      font-family: 'Nunito', sans-serif;   
-
 }
 :root{
      --elements: #03C04A;;
@@ -15,6 +14,17 @@
      --description-txt:  #707070;
      --main-txt: #333; 
  }
+
+.ForBigText{
+     margin-top: 2%;
+     min-width: 1000px;
+}
+
+ h3{
+     font-size: 36px;
+     text-align: left;
+ }
+ 
 
 main{
      min-height: 100vh;
