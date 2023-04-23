@@ -4,8 +4,25 @@
     --elements: #03C04A;;
     --gray-back: #646363;
     --white-10: #F8F8FA;
-    --grey-text: #C3C3C3;
+    --card: #b2d3c2;
+    --btn-on-card:  #5dbb63;
     --background-items: rgba(255, 255, 255, 0.2);
+    --description-txt:  #707070;
+    --main-txt: #333; 
+    --back-of-card: #8697a5;
+
+    --gray300: #D3D4D8;
+    --gray400: #BCBCC3;
+    --gray500: #94959B;
+    --gray600: #75767D;
+    --gray700: #4A4A4E;
+    --gray800: #333;
+
+    --background-of_cards: #D9D9D9;
+}
+
+.ColorOfSocialMedia{
+    filter: invert(56%) sepia(77%) saturate(302%) hue-rotate(74deg) brightness(100%) contrast(89%);
 }
 
 a:active, a:hover,
@@ -16,45 +33,54 @@ a{
 footer{
     height: 150px;
     width: 100%;
-    background-color: var(--gray-back);
+    box-shadow: 50px  rgba(0, 0, 0, 0.2); 
 }
 
-
-.ContainerFooter{
+.FooterContainer{
     height: 100%;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 2.5% 30% 2.5% 30% 2.5% 30% 2.5%;
-    grid-template-rows:  5% 10% 5% 10% 5% 10% 5% 10% 5% 10% 5% 20%;
+    margin: 0 16% ;
+    display: flex;
+    flex-direction: column;
+}
+
+.FooterInforamation{
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.BlockOfInfo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.BlockOfInfo p{
+    font-size: 12px;
+    color: var(--gray600);
+}
+
+.BlockOfInfo a{
     font-size: 14px;
     color: black;
-    font-family: 'Nunito', sans-serif;;
-    background-color: red;
 }
 
-.Help{
-    grid-row-start: 2;
-    grid-row-end: 12;
-    grid-column-start: 2;
+.ForSocialMedia{
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: flex-end;
 }
 
-
-.ToPartners{
-    grid-row-start: 2;
-    grid-row-end: 12;
-    grid-column-start: 4;
+.ForSocialMedia a{
+    height: 40px;
+    width: 40px;
+    margin-left: 1% ;
 }
 
-
-.LegalPolicy{
-    grid-row-start: 2;
-    grid-row-end: 12;
-    grid-column-start: 6;
-}
-
-
-.OurSocialMedia{
-    grid-row-start: 12;
-    grid-column-start: 2;
-    grid-column-end: 7;
+.ForSocialMedia a img{
+    height: 100%;
+    width: 100%;
 }
