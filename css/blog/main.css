@@ -1,0 +1,225 @@
+/* 'Nunito', sans-serif; */
+
+*{
+    margin: 0; padding: 0;
+    text-decoration: 0;
+    box-sizing: border-box;  
+    font-family: 'Nunito', sans-serif;   
+}
+
+:root{
+    --elements: #03C04A;;
+    --gray-back: #646363;
+    --white-10: #F8F8FA;
+    --card: #b2d3c2;
+    --btn-on-card:  #5dbb63;
+    --background-items: rgba(255, 255, 255, 0.2);
+    --description-txt:  #707070;
+    --main-txt: #333; 
+    --back-of-card: #8697a5;
+
+    --gray300: #D3D4D8;
+    --gray400: #BCBCC3;
+    --gray500: #94959B;
+    --gray600: #75767D;
+    --gray700: #4A4A4E;
+    --gray800: #333;
+
+    --background-of_cards: #D9D9D9;
+}
+
+
+header{
+    height: 7vh;
+    width: 100%;
+    box-shadow: 0 0 5px 0  rgba(0, 0, 0, 0.2); 
+    margin: 0 0 1% 0;
+    font-size: medium;
+    align-items: center;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer{
+    height: 150px;
+    width: 100%;
+    box-shadow: 50px  rgba(0, 0, 0, 0.2); 
+}
+
+.ColorOfSocialMedia{
+    filter: invert(56%) sepia(77%) saturate(302%) hue-rotate(74deg) brightness(100%) contrast(89%);
+}
+
+a:active, a:hover,
+a{
+    text-decoration: none;
+}
+
+
+
+.FooterContainer{
+    height: 100%;
+    margin: 0 16% ;
+    display: flex;
+    flex-direction: column;
+}
+
+.FooterInforamation{
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.BlockOfInfo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.BlockOfInfo p{
+    font-size: 12px;
+    color: var(--gray600);
+}
+
+.BlockOfInfo a{
+    font-size: 14px;
+    color: black;
+}
+
+.ForSocialMedia{
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: flex-end;
+}
+
+.ForSocialMedia a{
+    height: 40px;
+    width: 40px;
+    margin-left: 1% ;
+}
+
+.ForSocialMedia a img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.headerContainer{
+    height: 90%;
+    margin: 0 10% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.2% 0;
+}
+
+.Logo{
+    height: 100%;
+    width: 20%;
+}
+
+.Logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.Menu{
+    width: 12%;
+}
+
+.Menu a{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: var(--elements);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.Menu a p{
+    width: auto;
+    text-align: center;
+    color: white;
+}
+
+.SearchContainer{     
+    width: 20%;
+    border-radius: 30px;
+    border: solid var(--elements) 0.8px;
+    background: var(--white-10) ;
+}
+
+.SearchBar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.SearchBar button{
+    border: 0;
+    border-radius: 30%;
+    background: var(--background-items);
+    cursor: pointer;
+}
+
+.SearchBar button img{
+    width: 90%;
+    height: 90%;}
+
+.SearchBar input{    
+    background: transparent;   
+    border: 0;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+    color: var(--elements);
+    font-size: 14px;
+}
+::placeholder {
+    color: var(--elements);
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+} 
+
+
+.ShoppingCart a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.ShoppingCart a img{
+    width: 90%;
+    height: 90%;
+}
+
+
+.Profile a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.Profile a img{
+    width: 90%;
+    height: 90%;
+}

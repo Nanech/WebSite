@@ -1,0 +1,74 @@
+:root{
+    --elements: #03C04A;;
+    --gray-back: #646363;
+    --white-10: #F8F8FA;
+    --card: #b2d3c2;
+    --btn-on-card:  #5dbb63;
+    --background-items: rgba(255, 255, 255, 0.2);
+    --description-txt:  #707070;
+    --main-txt: #333; 
+    --back-of-card: #8697a5;
+
+    --gray300: #D3D4D8;
+    --gray400: #BCBCC3;
+    --gray500: #94959B;
+    --gray600: #75767D;
+    --gray700: #4A4A4E;
+    --gray800: #333;
+
+    --background-of_cards: #D9D9D9;
+}
+
+
+.BlogContainer{
+    font-size: 20px;
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 10% ;
+}
+
+.BlogContainer img{
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.BlogContainer ul{
+    padding-left: 40px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.BlogContainer p{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.BlogContainer li{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.BlogContainer h1{
+    margin: 2% 5%;
+    font-size: 40px;
+    color: var(--btn-on-card) ;
+}
+.BlogContainer h2{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-size: 40px;
+}
+
+.DataTime{
+    color: var(--gray500);
+    font-size: 20px;
+}
+.Navigation{
+    color: var(--gray300);
+    font-size: 20px;
+    margin: 1em 0;
+}
+
+
