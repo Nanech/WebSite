@@ -16,6 +16,8 @@
     --gray700: #4A4A4E;
     --gray800: #333;
 
+    --sage: #728c69;
+
     --background-of_cards: #D9D9D9;
 }
 
@@ -28,16 +30,32 @@
 }
 
 .BlogContainer img{
-    height: 400px;
     width: 100%;
     border-radius: 30px;
     object-fit: cover;
 }
 
+.FirstImage{
+    height: 400px;
+
+}
+
+.ImageInOl{
+    height: 400px;
+    margin: 0 5%;
+}
+
+
 .BlogContainer ul{
     padding-left: 40px;
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+.BlogContainer ol{
+    padding-left: 40px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 .BlogContainer p{
