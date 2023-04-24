@@ -1,0 +1,47 @@
+/* 'Nunito', sans-serif; */
+
+*{
+    margin: 0; padding: 0;
+    text-decoration: 0;
+    box-sizing: border-box;  
+    font-family: 'Nunito', sans-serif;       
+}
+
+:root{
+    --elements: #03C04A;;
+    --gray-back: #646363;
+    --white-10: #F8F8FA;
+    --card: #b2d3c2;
+    --btn-on-card:  #5dbb63;
+    --background-items: rgba(255, 255, 255, 0.2);
+    --description-txt:  #707070;
+    --main-txt: #333; 
+    --back-of-card: #8697a5;
+
+    --gray300: #D3D4D8;
+    --gray400: #BCBCC3;
+    --gray500: #94959B;
+    --gray600: #75767D;
+    --gray700: #4A4A4E;
+    --gray800: #333;
+
+    --background-of_cards: #D9D9D9;
+}
+
+.ContainerForPC{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://www.hsph.harvard.edu/nutritionsource/wp-content/uploads/sites/30/2018/11/shutterstock_723278326.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.SpaceForContent{
+    width: 100%;
+    height: 100%;
+    padding-right: 50%;
+
+    background-color: white;
+}
+
